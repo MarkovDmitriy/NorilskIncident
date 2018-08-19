@@ -1,0 +1,287 @@
+﻿Log file open, 08/19/18 23:25:31
+LogInit:Display: Running engine for game: NorilskDemo
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2005295213) SRandInit(-2005295213).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.067561
+LogPluginManager: Loaded Plugin Paper2D, From D:/UnrealEngine/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/UnrealEngine/UE_4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/UnrealEngine/UE_4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/UnrealEngine/UE_4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/UnrealEngine/UE_4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/UnrealEngine/UE_4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/UnrealEngine/UE_4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/UE_4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.19-20.25.31:956][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.19-20.25.31:956][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.19-20.25.31:963][  0]LogInit: Computer: DESKTOP-FV114D6
+[2018.08.19-20.25.31:963][  0]LogInit: User: User
+[2018.08.19-20.25.31:963][  0]LogInit: CPU Page size=65536, Cores=4
+[2018.08.19-20.25.31:963][  0]LogInit: High frequency timer resolution =3.328124 MHz
+[2018.08.19-20.25.31:964][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.08.19-20.25.31:964][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.19-20.25.31:964][  0]LogMemory: Process Physical Memory: 254.91 MB used, 254.91 MB peak
+[2018.08.19-20.25.31:964][  0]LogMemory: Process Virtual Memory: 259.49 MB used, 259.49 MB peak
+[2018.08.19-20.25.31:964][  0]LogMemory: Physical Memory: 6240.58 MB used, 16321.73 MB total
+[2018.08.19-20.25.31:964][  0]LogMemory: Virtual Memory: 4753.21 MB used, 134217728.00 MB total
+[2018.08.19-20.25.31:988][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.08.19-20.25.32:457][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.19-20.25.32:490][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.08.19-20.25.32:490][  0]LogD3D11RHI:       6061/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.08.19-20.25.32:492][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.19-20.25.32:492][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.19-20.25.32:492][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.19-20.25.32:497][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.19-20.25.32:497][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.19-20.25.32:497][  0]LogWindows: EnumDisplayDevices:
+[2018.08.19-20.25.32:497][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.08.19-20.25.32:497][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.08.19-20.25.32:497][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.08.19-20.25.32:497][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.08.19-20.25.32:497][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.19-20.25.32:497][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.08.19-20.25.32:497][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.19-20.25.32:497][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.19-20.25.32:497][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.08.19-20.25.32:519][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.19-20.25.32:530][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.08.19-20.25.32:530][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../NorilskIncident/Intermediate/Shaders/WorkingDirectory/13416/).
+[2018.08.19-20.25.32:530][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/DFA736284E1328B1FC005B86C47A364E/'.
+[2018.08.19-20.25.32:530][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.08.19-20.25.33:405][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.19-20.25.33:412][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.19-20.25.33:418][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.19-20.25.33:424][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.19-20.25.33:430][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.08.19-20.25.33:436][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-20.25.33:441][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.08.19-20.25.33:446][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.08.19-20.25.33:451][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.08.19-20.25.33:456][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.08.19-20.25.33:461][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.08.19-20.25.33:472][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.08.19-20.25.33:472][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.08.19-20.25.33:472][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.08.19-20.25.33:490][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.08.19-20.25.33:495][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.08.19-20.25.33:500][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.19-20.25.33:505][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.19-20.25.33:510][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.19-20.25.33:516][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.08.19-20.25.33:516][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.08.19-20.25.33:557][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.08.19-20.25.33:613][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/User/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2018.08.19-20.25.33:613][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2018.08.19-20.25.33:613][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../NorilskIncident/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.19-20.25.33:613][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.19-20.25.33:613][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../NorilskIncident/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.19-20.25.33:613][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.19-20.25.33:625][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.19-20.25.33:637][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.19-20.25.33:793][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.19-20.25.33:864][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2018.08.19-20.25.33:864][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.08.19-20.25.33:864][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2018.08.19-20.25.33:920][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.08.19-20.25.34:207][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: norilskdemo, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2012534267
+[2018.08.19-20.25.34:241][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2018.08.19-20.25.34:276][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.033993 seconds
+[2018.08.19-20.25.34:280][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2018.08.19-20.25.34:280][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2018.08.19-20.25.34:280][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.19-20.25.34:283][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.08.19-20.25.34:712][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.19-20.25.34:712][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.19-20.25.35:230][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.19-20.25.35:272][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.19-20.25.35:464][  0]SourceControl: Info Source control is disabled
+[2018.08.19-20.25.35:495][  0]SourceControl: Info Source control is disabled
+[2018.08.19-20.25.35:500][  0]SourceControl: Info Source control is disabled
+[2018.08.19-20.25.35:504][  0]SourceControl: Info Source control is disabled
+[2018.08.19-20.25.35:671][  0]LogEngine: Initializing Engine...
+[2018.08.19-20.25.35:672][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.19-20.25.35:787][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.19-20.25.35:810][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.19-20.25.35:825][  0]LogInit: FAudioDevice initialized.
+[2018.08.19-20.25.35:857][  0]LogDerivedDataCache: Saved boot cache 0.03s 76MB C:/Users/User/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2018.08.19-20.25.35:867][  0]LogInit: Texture streaming: Disabled
+[2018.08.19-20.25.35:885][  0]LogInit: Transaction tracking system initialized
+[2018.08.19-20.25.35:894][  0]BlueprintLog: New page: Editor Load
+[2018.08.19-20.25.35:932][  0]LocalizationService: Info Localization service is disabled
+[2018.08.19-20.25.36:003][  0]LogConsoleResponse:Display: 
+[2018.08.19-20.25.36:112][  0]LogTexture:Display: Building textures: Tick (AutoDXT)
+[2018.08.19-20.25.36:121][  0]LogTexture:Display: Building textures: WidgetGridVertexColorMaterial (AutoDXT)
+[2018.08.19-20.25.36:382][  0]LogTexture:Display: Building textures: CASC_None (AutoDXT)
+[2018.08.19-20.25.36:383][  0]LogTexture:Display: Building textures: CASC_Cross (AutoDXT)
+[2018.08.19-20.25.36:419][  0]LogTexture:Display: Building textures: Texture2D_28 (AutoDXT)
+[2018.08.19-20.25.36:426][  0]LogTexture:Display: Building textures: S_KBSJoint (BGRA8)
+[2018.08.19-20.25.36:429][  0]LogTexture:Display: Building textures: S_KHinge (BGRA8)
+[2018.08.19-20.25.36:433][  0]LogTexture:Display: Building textures: S_KPrismatic (BGRA8)
+[2018.08.19-20.25.36:437][  0]LogTexture:Display: Building textures: S_LightError (BGRA8)
+[2018.08.19-20.25.36:441][  0]LogTexture:Display: Building textures: T_Loft_Spline (AutoDXT)
+[2018.08.19-20.25.36:806][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/0/TEXTURE_814DCC3DC72143F49509781513CB9855_BGRA8_56BEDB7D4D934FA4B20DE6BE61E6E95__77AE1EAAB7B4F25434565688B44A8EF41377A4B5.udd.
+[2018.08.19-20.25.36:806][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/8/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_FA8393994E4663BDC7A871A870214__AFB8FE89CA1E70222ABF45876CF28D8615FB56F9.udd.
+[2018.08.19-20.25.36:806][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/9/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_FA8393994E4663BDC7A871A870214__FF19969BE0EFA51B3CD01A0C9CB28C7F26301BDD.udd.
+[2018.08.19-20.25.36:806][  0]LogTexture:Display: Building textures: DefaultNormal (BC5)
+[2018.08.19-20.25.36:980][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/2/TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_122003924E39A572EF68B5BAC8A94B51___583274C5548641E4D316B5211CA80ED9EBB46352.udd.
+[2018.08.19-20.25.36:990][  0]LogTexture:Display: Building textures: Grid_N (BC5)
+[2018.08.19-20.25.37:171][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/3/TEXTURE_814DCC3DC72143F49509781513CB9855_BC5_4270CDCA43F8AFDE7C5059A4A1A23423___852509BD2EDB904A62674F3FFF60FE49FB55CA8A.udd.
+[2018.08.19-20.25.37:171][  0]LogTexture:Display: Building textures: PaperDiffuse (AutoDXT)
+[2018.08.19-20.25.37:443][  0]LogTexture:Display: Building textures: PaperNormal (BC5)
+[2018.08.19-20.25.37:481][  0]LogTexture:Display: Building textures: Texture2D_28 (AutoDXT)
+[2018.08.19-20.25.37:492][  0]LogTexture:Display: Building textures: Texture2D_29 (AutoDXT)
+[2018.08.19-20.25.37:497][  0]LogTexture:Display: Building textures: StreamingPauseIcon (AutoDXT)
+[2018.08.19-20.25.37:563][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/2/7/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_CD0D71854BD4F515F93811859C41E__758E1DE34BD4168B9E65CB74F5D501447522AA48.udd.
+[2018.08.19-20.25.37:563][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.19-20.25.37:563][  0]LogCook:Display: Mobile HDR setting 1
+[2018.08.19-20.25.38:402][  0]LogFileCache: Scanning file cache for directory 'D:/NorilskIncident/Content/' took 0.02s
+[2018.08.19-20.25.38:794][  0]LogTexture:Display: Building textures: Countdown (AutoDXT)
+[2018.08.19-20.25.38:802][  0]LogTexture:Display: Building textures: RecordingIndicator (AutoDXT)
+[2018.08.19-20.25.39:858][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_22B1C6594A479DC23AC43EA820AF3__A10F39CB6782E5C12840BF012034A73A388B2C23.udd.
+[2018.08.19-20.25.39:858][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/6/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_C9C0042E4646BBBD22018DAA900D0__C743055873C9123B9C8F6F9C4FA0E9CA74E47972.udd.
+[2018.08.19-20.25.39:859][  0]LogTexture:Display: Building textures: DefaultAlphaTexture (BGRA8)
+[2018.08.19-20.25.40:502][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/9/9/TEXTURE_814DCC3DC72143F49509781513CB9855_BGRA8_A0D795F945C667D5015A3D929AB04F5__6E6BD1DF80A2CEA7399E255D11CAB978A8F37138.udd.
+[2018.08.19-20.25.40:503][  0]SourceControl: Info Source control is disabled
+[2018.08.19-20.25.40:503][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.19-20.25.40:503][  0]LightingResults: New page: Lighting Build
+[2018.08.19-20.25.40:505][  0]MapCheck: New page: Map Check
+[2018.08.19-20.25.40:505][  0]LightingResults: New page: Lighting Build
+[2018.08.19-20.25.43:177][  0]LogTexture:Display: Building textures: T_Sky_Blue (AutoDXT)
+[2018.08.19-20.25.44:572][  0]LogTexture:Display: Building textures: T_Sky_Clouds_M (BGRA8)
+[2018.08.19-20.25.44:781][  0]LogTexture:Display: Building textures: T_Sky_Stars (AutoDXT)
+[2018.08.19-20.25.44:843][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2018.08.19-20.25.44:846][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2018.08.19-20.25.44:847][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2018.08.19-20.25.44:850][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2018.08.19-20.25.44:856][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2018.08.19-20.25.44:858][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2018.08.19-20.25.44:860][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2018.08.19-20.25.44:861][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2018.08.19-20.25.44:863][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.08.19-20.25.44:867][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.19-20.25.44:876][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.19-20.25.44:901][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 24.948ms to complete.
+[2018.08.19-20.25.44:901][  0]LogFileHelpers: Loading map 'Template_Default' took 4.398
+[2018.08.19-20.25.44:983][  0]LogCollectionManager: Loaded 0 collections in 0.000646 seconds
+[2018.08.19-20.25.45:020][  0]LogFileCache: Scanning file cache for directory 'D:/NorilskInciden
