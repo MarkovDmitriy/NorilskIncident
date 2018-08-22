@@ -1202,7 +1202,7 @@ float ABaseCharacter::GetLowHealthPercentage() const
 
 void ABaseCharacter::BuildPauseReplicationCheckPoints(TArray<FVector>& RelevancyCheckPoints)
 {
-	FBoxSphereBounds Bounds = GetCapsuleComponent()->CalcBounds(GetCapsuleComponent()->ComponentToWorld);
+	FBoxSphereBounds Bounds = GetCapsuleComponent()->CalcBounds(GetCapsuleComponent()->GetComponentToWorld());
 	FBox BoundingBox = Bounds.GetBox();
 	float XDiff = Bounds.BoxExtent.X * 2;
 	float YDiff = Bounds.BoxExtent.Y * 2;

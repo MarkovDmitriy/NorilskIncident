@@ -428,13 +428,6 @@ protected:
 	UFUNCTION(reliable, server, WithValidation)
 		void ServerStopReload();
 
-
-	//////////////////////////////////////////////////////////////////////////
-	// Replication & effects
-
-	UFUNCTION()
-		void OnRep_Owner();
-
 	UFUNCTION()
 		void OnRep_BurstCounter();
 

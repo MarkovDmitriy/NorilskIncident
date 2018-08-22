@@ -740,20 +740,6 @@ void ABaseWeapon::SetOwningPawn(ABaseCharacter* NewOwner)
 	}	
 }
 
-//////////////////////////////////////////////////////////////////////////
-// Replication & effects
-
-void ABaseWeapon::OnRep_Owner()
-{
-	if (m_owner)
-	{
-		OnEnterInventory(m_owner);
-	}
-	else
-	{
-		OnLeaveInventory();
-	}
-}
 
 void ABaseWeapon::OnRep_BurstCounter()
 {

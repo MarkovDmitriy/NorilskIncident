@@ -4,11 +4,24 @@ using UnrealBuildTool;
 
 public class NorilskDemo : ModuleRules
 {
-	public NorilskDemo(TargetInfo Target)
+	public NorilskDemo(ReadOnlyTargetRules Target) : base(Target)
 	{
-	PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "OnlineSubsystem", "OnlineSubsystemUtils", "AssetRegistry", "AIModule", "GameplayTasks",});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
+		
+        	PublicDependencyModuleNames.AddRange(
+			new string[] {
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"OnlineSubsystem",
+				"OnlineSubsystemUtils",
+				"AssetRegistry",
+				"NavigationSystem",
+				"AIModule",
+				"GameplayTasks",
+			}
+		);
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });

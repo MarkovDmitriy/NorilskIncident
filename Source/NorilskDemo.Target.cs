@@ -5,21 +5,10 @@ using System.Collections.Generic;
 
 public class NorilskDemoTarget : TargetRules
 {
-	public NorilskDemoTarget(TargetInfo Target)
+	public NorilskDemoTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-	}
 
-	//
-	// TargetRules interface.
-	//
-
-	public override void SetupBinaries(
-		TargetInfo Target,
-		ref List<UEBuildBinaryConfiguration> OutBuildBinaryConfigurations,
-		ref List<string> OutExtraModuleNames
-		)
-	{
-		OutExtraModuleNames.AddRange( new string[] { "NorilskDemo" } );
+		ExtraModuleNames.AddRange( new string[] { "NorilskDemo" });
 	}
 }
