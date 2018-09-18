@@ -47,7 +47,7 @@ public:
 	*	@param	CameraLocation	Location of the Camera.
 	*	@param	CameraRotation	Rotation of the Camera.
 	*/
-	void OnCameraUpdate(const FVector& CameraLocation, const FRotator& CameraRotation);
+	void OnCameraUpdate(const FVector& CameraLocation, const FRotator& CameraRotation, const float DeltaTime);
 
 	/** get aim offsets */
 	UFUNCTION(BlueprintCallable, Category = "Game|Weapon")
@@ -109,6 +109,10 @@ public:
 	/** [server + local] change targeting state */
 	void SetTargeting(bool bNewTargeting);
 
+private:
+	ABaseWeapon *_weaponForUse;
+
+public:
 	//////////////////////////////////////////////////////////////////////////
 	// Movement
 
@@ -177,6 +181,9 @@ public:
 
 	/** player pressed prev weapon action */
 	void OnPrevWeapon();
+
+	void OnStartUsing();
+	void OnStopUsing();
 
 	/** player pressed reload action */
 	void OnReload();

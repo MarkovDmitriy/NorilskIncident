@@ -12,6 +12,8 @@
 #include "Animation/AnimInstance.h"
 #include "Sound/SoundNodeLocalPlayer.h"
 #include "AudioThread.h"
+#include "DrawDebugHelpers.h"
+#include "CollisionQueryParams.h"
 
 static int32 NetVisualizeRelevancyTestPoints = 0;
 FAutoConsoleVariableRef CVarNetVisualizeRelevancyTestPoints(
@@ -146,7 +148,7 @@ void ABaseCharacter::UpdatePawnMeshes()
 	GetMesh()->SetOwnerNoSee(bFirstPerson);
 }
 
-void ABaseCharacter::OnCameraUpdate(const FVector& CameraLocation, const FRotator& CameraRotation)
+void ABaseCharacter::OnCameraUpdate(const FVector& CameraLocation, const FRotator& CameraRotation, const float DeltaTime)
 {
 	USkeletalMeshComponent* DefMesh1P = Cast<USkeletalMeshComponent>(GetClass()->GetDefaultSubobjectByName(TEXT("PawnMesh1P")));
 	const FMatrix DefMeshLS = FRotationTranslationMatrix(DefMesh1P->RelativeRotation, DefMesh1P->RelativeLocation);
@@ -163,6 +165,40 @@ void ABaseCharacter::OnCameraUpdate(const FVector& CameraLocation, const FRotato
 	const FMatrix PitchedMesh = MeshRelativeToCamera * PitchedCameraLS;
 
 	Mesh1P->SetRelativeLocationAndRotation(PitchedMesh.GetOrigin(), PitchedMesh.Rotator());
+
+	ANorilskPlayerController* player = Cast<ANorilskPlayerController>(Controller);
+	if (player) {
+		// Use Logic
+		static const float UseRange = 2.f * 1000.f;
+		
+		FVector StartPoint, EndPoint;
+		StartPoint = CameraLocation;
+		FVector PosDiff = CameraRotation.Vector();
+		PosDiff *= UseRange;
+		EndPoint = StartPoint + PosDiff;
+
+		FCollisionQueryParams query_params;
+		query_params.AddIgnoredActor(this);
+
+		FHitResult HitRes;
+		if (GetWorld()->LineTraceSingleByChannel(HitRes, StartPoint, EndPoint, ECollisionChannel::ECC_Visibility, query_params)) {
+			if (HitRes.GetActor()) {
+				ABaseWeapon *weapon = Cast<ABaseWeapon>(HitRes.GetActor()->GetOwner());
+				if (weapon) {
+					if (!_weaponForUse) {
+						_weaponForUse = weapon;
+					}
+					DrawDebugSolidBox(GetWorld(), HitRes.ImpactPoint, FVector(1, 1, 1), FColor(255, 0, 0, 255), 0, 10000);
+				}
+			} else {
+				_weaponForUse = nullptr;
+			}
+		} else {
+			_weaponForUse = nullptr;
+		}
+
+		DrawDebugLine(GetWorld(), StartPoint, EndPoint, FColor(255, 0, 0, 255), false, 10000);
+	}
 }
 
 void ABaseCharacter::FellOutOfWorld(const class UDamageType& dmgType)
@@ -792,6 +828,9 @@ void ABaseCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInpu
 	PlayerInputComponent->BindAction("Run", IE_Pressed, this, &ABaseCharacter::OnStartRunning);
 	PlayerInputComponent->BindAction("RunToggle", IE_Pressed, this, &ABaseCharacter::OnStartRunningToggle);
 	PlayerInputComponent->BindAction("Run", IE_Released, this, &ABaseCharacter::OnStopRunning);
+
+	PlayerInputComponent->BindAction("Use", IE_Pressed, this, &ABaseCharacter::OnStartUsing);
+	PlayerInputComponent->BindAction("Use", IE_Released, this, &ABaseCharacter::OnStopUsing);
 }
 
 void ABaseCharacter::MoveForward(float Val)
@@ -860,6 +899,18 @@ void ABaseCharacter::OnStopFire()
 	StopWeaponFire();
 }
 
+void ABaseCharacter::OnStartUsing() {
+	if (!_weaponForUse)
+		return;
+
+	AddWeapon(_weaponForUse);
+	EquipWeapon(_weaponForUse);
+	_weaponForUse = nullptr;
+}
+
+void ABaseCharacter::OnStopUsing() {
+	// add hold logic here
+}
 
 void ABaseCharacter::OnStartTargeting()
 {
@@ -970,15 +1021,19 @@ void ABaseCharacter::Tick(float DeltaSeconds)
 	{
 		SetRunning(false, false);
 	}
-	ANorilskPlayerController* MyPC = Cast<ANorilskPlayerController>(Controller);
-	if (MyPC && MyPC->HasHealthRegen())
-	{
-		if (this->Health < this->GetMaxHealth())
+
+	ANorilskPlayerController* player = Cast<ANorilskPlayerController>(Controller);
+	if (player) {
+		// Health Regen
+		if (player->HasHealthRegen())
 		{
-			this->Health += 5 * DeltaSeconds;
-			if (Health > this->GetMaxHealth())
+			if (this->Health < this->GetMaxHealth())
 			{
-				Health = this->GetMaxHealth();
+				this->Health += 5 * DeltaSeconds;
+				if (Health > this->GetMaxHealth())
+				{
+					Health = this->GetMaxHealth();
+				}
 			}
 		}
 	}

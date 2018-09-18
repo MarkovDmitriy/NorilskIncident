@@ -28,6 +28,9 @@ ABaseWeapon::ABaseWeapon(const FObjectInitializer& ObjectInitializer) : Super(Ob
 	Mesh3P->SetCollisionResponseToChannel(COLLISION_PROJECTILE, ECR_Block);
 	Mesh3P->SetupAttachment(Mesh1P);
 
+	Mesh1P->SetHiddenInGame(false);
+	Mesh3P->SetHiddenInGame(false);
+
 	bLoopedMuzzleFX = false;
 	bLoopedFireAnim = false;
 	bPlayingFireAnim = false;
@@ -203,10 +206,10 @@ void ABaseWeapon::AttachMeshToPawn()
 void ABaseWeapon::DetachMeshFromPawn()
 {
 	Mesh1P->DetachFromComponent(FDetachmentTransformRules::KeepRelativeTransform);
-	Mesh1P->SetHiddenInGame(true);
+	Mesh1P->SetHiddenInGame(false);
 
 	Mesh3P->DetachFromComponent(FDetachmentTransformRules::KeepRelativeTransform);
-	Mesh3P->SetHiddenInGame(true);
+	Mesh3P->SetHiddenInGame(false);
 }
 
 //////////////////////////////////////////////////////////////////////////

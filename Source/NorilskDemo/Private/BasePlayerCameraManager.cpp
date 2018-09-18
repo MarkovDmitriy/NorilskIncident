@@ -27,7 +27,7 @@ void ABasePlayerCameraManager::UpdateCamera(float DeltaTime)
 
 	if (MyPawn && MyPawn->IsFirstPerson())
 	{
-		MyPawn->OnCameraUpdate(GetCameraLocation(), GetCameraRotation());
+		MyPawn->OnCameraUpdate(GetCameraLocation(), GetCameraRotation(), DeltaTime);
 	}
 }
 
