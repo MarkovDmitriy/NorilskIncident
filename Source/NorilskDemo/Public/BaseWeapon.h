@@ -509,7 +509,9 @@ protected:
 
 protected:
 	/** Returns Mesh1P subobject **/
+	UFUNCTION(BlueprintPure, Category="Weapon")
 	FORCEINLINE USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns Mesh3P subobject **/
+	UFUNCTION(BlueprintPure, Category = "Weapon")
 	FORCEINLINE USkeletalMeshComponent* GetMesh3P() const { return Mesh3P; }
 };

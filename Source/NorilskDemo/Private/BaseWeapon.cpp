@@ -60,7 +60,7 @@ void ABaseWeapon::PostInitializeComponents()
 		CurrentAmmo = WeaponConfig.AmmoPerClip * WeaponConfig.InitialClips;
 	}
 
-	DetachMeshFromPawn();
+	//DetachMeshFromPawn();
 }
 
 void ABaseWeapon::Destroyed()
