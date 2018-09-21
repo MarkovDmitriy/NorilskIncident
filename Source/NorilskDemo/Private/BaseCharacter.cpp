@@ -182,8 +182,9 @@ void ABaseCharacter::OnCameraUpdate(const FVector& CameraLocation, const FRotato
 
 		FHitResult HitRes;
 		if (GetWorld()->LineTraceSingleByChannel(HitRes, StartPoint, EndPoint, ECollisionChannel::ECC_Visibility, query_params)) {
-			if (HitRes.GetActor()) {
-				ABaseWeapon *weapon = Cast<ABaseWeapon>(HitRes.GetActor()->GetOwner());
+			auto actor = HitRes.GetActor();
+			if (actor) {
+				ABaseWeapon *weapon = Cast<ABaseWeapon>(actor);
 				if (weapon) {
 					if (!_weaponForUse) {
 						_weaponForUse = weapon;

@@ -190,14 +190,14 @@ void ABaseWeapon::AttachMeshToPawn()
 			USkeletalMeshComponent* PawnMesh3p = m_owner->GetSpecifcPawnMesh(false);
 			Mesh1P->SetHiddenInGame( false );
 			Mesh3P->SetHiddenInGame( false );
-			Mesh1P->AttachToComponent(PawnMesh1p, FAttachmentTransformRules::KeepRelativeTransform, AttachPoint);
-			Mesh3P->AttachToComponent(PawnMesh3p, FAttachmentTransformRules::KeepRelativeTransform, AttachPoint);
+			Mesh1P->AttachToComponent(PawnMesh1p, FAttachmentTransformRules::SnapToTargetNotIncludingScale, AttachPoint);
+			Mesh3P->AttachToComponent(PawnMesh3p, FAttachmentTransformRules::SnapToTargetNotIncludingScale, AttachPoint);
 		}
 		else
 		{
 			USkeletalMeshComponent* UseWeaponMesh = GetWeaponMesh();
 			USkeletalMeshComponent* UsePawnMesh = m_owner->GetPawnMesh();
-			UseWeaponMesh->AttachToComponent(UsePawnMesh, FAttachmentTransformRules::KeepRelativeTransform, AttachPoint);
+			UseWeaponMesh->AttachToComponent(UsePawnMesh, FAttachmentTransformRules::SnapToTargetNotIncludingScale, AttachPoint);
 			UseWeaponMesh->SetHiddenInGame( false );
 		}
 	}
