@@ -189,7 +189,7 @@ void ABaseCharacter::OnCameraUpdate(const FVector& CameraLocation, const FRotato
 					if (!_weaponForUse) {
 						_weaponForUse = weapon;
 					}
-					DrawDebugSolidBox(GetWorld(), HitRes.ImpactPoint, FVector(1, 1, 1), FColor(255, 0, 0, 255), 0, 10000);
+					//DrawDebugSolidBox(GetWorld(), HitRes.ImpactPoint, FVector(1, 1, 1), FColor(255, 0, 0, 255), 0, 10000);
 				}
 			} else {
 				_weaponForUse = nullptr;
@@ -198,7 +198,7 @@ void ABaseCharacter::OnCameraUpdate(const FVector& CameraLocation, const FRotato
 			_weaponForUse = nullptr;
 		}
 
-		DrawDebugLine(GetWorld(), StartPoint, EndPoint, FColor(255, 0, 0, 255), false, 10000);
+		//DrawDebugLine(GetWorld(), StartPoint, EndPoint, FColor(255, 0, 0, 255), false, 10000);
 	}
 }
 
